@@ -31,9 +31,9 @@ network.compile(optimizer='rmsprop',
     metrics=['accuracy'])
 
 # Train the network
-network.fit(train_images, 
-    train_labels, 
-    epochs=NUM_EPOCHS, 
+network.fit(train_images,
+    train_labels,
+    epochs=NUM_EPOCHS,
     batch_size=BATCH_SIZE)
 
 # Output training results
