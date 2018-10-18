@@ -9,7 +9,7 @@ NUM_WORDS = 10000
 # Import labeled traning and test data
 (train_data, train_labels), (test_data, test_labels) = imdb.load_data(num_words=NUM_WORDS)
 
-# Given list of word sequences, return list of one-hot encoded reviews 
+# Given list of word sequences, return list of one-hot encoded reviews
 def vectorize_sequences(sequences, dimension=NUM_WORDS):
   results = np.zeros((len(sequences), dimension))
   for i, sequence in enumerate(sequences):
