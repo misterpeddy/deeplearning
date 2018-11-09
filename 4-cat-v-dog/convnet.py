@@ -24,8 +24,8 @@ model.compile(optimizer=optimizers.RMSprop(lr=1e-4),
 			  metrics=['acc'])
 
 
-train_dir = os.path.join(os.getcwd(), 'train')
-validation_dir = os.path.join(os.getcwd(), 'validation')
+train_dir = os.path.join(os.getcwd(), 'data', 'train')
+validation_dir = os.path.join(os.getcwd(), 'data', 'validation')
 
 # Data generators (with augmentation for training)
 train_datagen = ImageDataGenerator(
