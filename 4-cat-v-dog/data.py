@@ -1,7 +1,7 @@
 import os, shutil
 
 base_dir = os.join(os.getcwd(), 'data')
-original_dataset_dir = os.path.join(base_dir, 'data', 'original_data', 'train')
+original_dataset_dir = os.path.join(base_dir, 'original_data', 'train')
 
 data_segment_names = ['train', 'validation', 'test']
 labels = ['cat', 'dog']
