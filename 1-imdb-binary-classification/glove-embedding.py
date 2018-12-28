@@ -60,7 +60,7 @@ x_val = data[training_samples : training_samples + validation_samples]
 y_val = labels[training_samples : training_samples + validation_samples]
 
 # Build GloVe index
-glove_dir = os.path.join(base_dir, 'glove')
+glove_dir = os.path.join(data_dir, 'glove')
 glove_file = open(os.path.join(glove_dir, 'glove.6B.100d.txt'))
 glove_index = {}
 for line in glove_file:
