@@ -4,9 +4,6 @@ A small collection of very basic learning tasks implemented with TF 2.0.
 
 Feel free to file an issue if you'd like to see new tasks added, or send pull requests to contribute.
 
-## General
-* [A whirlwind introduction to Tensorflow 2.0](2.0_tf_tutorial.ipynb)
-
 ## Vision
 * [MNIST: Simple feed-forward network](0-mnist/mnist.ipynb)
 * [CatvDog: Model with 4 convolutional-maxpooling blocks + data augmentation](4-cat-v-dog/convnet_data_aug.ipynb)
@@ -30,3 +27,6 @@ Feel free to file an issue if you'd like to see new tasks added, or send pull re
 * [Variational Autoencoder](6-misc-examples/VAE.ipynb)
 * [LSTM Text Generation](6-misc-examples/lstm_text_gen.ipynb)
 * [Transfer Learning](6-misc-examples/transfer_learning.ipynb)
+
+## Tensorflow Tutorials 
+* [A whirlwind introduction to Tensorflow 2.0](7-tf-tutorials/basic_tutorial.ipynb)
